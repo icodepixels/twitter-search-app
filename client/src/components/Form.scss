@@ -1,0 +1,27 @@
+.Form {
+    width: 100%;
+    min-width: 342px;
+    &__input {
+        width: 100%;
+        min-height: 50px;
+        padding-left: 32px;
+        background-color: #ffffff;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    &__input::placeholder {
+        font-weight: 700;
+        color: #a6a6a6;
+    }
+    &__searchField {
+        position: relative;
+    }
+    &__icon {
+        position: absolute;
+        color: #c1c6c9;
+        font-size: 14px;
+        top: 18px;
+        left: 10px;
+    }
+}

@@ -1,0 +1,34 @@
+.Tweets {
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px rgba(199, 193, 193, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 4px;
+    margin-top: 16px;
+
+    &__defaultMessage {
+        color: #6c6c6c;
+        padding: 32px;
+    }
+    &__action {
+        width: 100%;
+        margin: 32px 0;
+        display: flex;
+        justify-content: center;
+    }
+    &__button {
+        background-color: #ffffff;
+        border: 0;
+        color: #80acd2;
+        font-weight: 700;
+        width: 120px;
+        margin-bottom: 32px;
+    }
+    &__button:hover {
+        cursor: pointer;
+        color: #000;
+    }
+
+    &__buttons {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

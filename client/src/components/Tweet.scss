@@ -1,0 +1,27 @@
+.Tweet {
+    &__hashtag {
+        margin-right: 8px;
+        margin-bottom: 8px;
+    }
+
+    &__result {
+        padding: 16px;
+        display: flex;
+    }
+    &__result:nth-child(even) {
+        background-color: #f8f9f9;
+    }
+    &__column:first-child {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 16px;
+    }
+    &__image {
+        border-radius: 25px;
+    }
+    &__name {
+        font-weight: 700;
+        color: #3d5059
+    }
+}

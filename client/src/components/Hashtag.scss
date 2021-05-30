@@ -1,0 +1,22 @@
+.Hashtag {
+    &__button {
+        background-color: #e7f3fa;
+        color: #80acd2;
+        border: 0;
+        padding: 8px 16px;
+        border-radius: 25px;
+        font-weight: 700;
+        word-break: break-all;
+    }
+    &__button:hover {
+        cursor: pointer;
+        background-color: #80acd2;
+        color: #e7f3fa;
+        transition: background-color 0.5s ease;
+    }
+    &__button:disabled {
+        background-color: #f3f3f3;
+        cursor: not-allowed;
+        color: #f1f1f1;
+    }
+}

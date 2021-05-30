@@ -1,0 +1,45 @@
+$desktop: "(min-width: 824px)";
+
+.App {
+    max-width: 800px;
+    margin: 32px auto;
+    &__title {
+        margin-left: 16px;
+        color: #3d5059;
+        font-size: 16px;
+        margin-bottom: 16px;
+        margin-top: 16px;
+        @media #{$desktop} {
+            margin-left: 0;
+        }
+    }
+    &__container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        @media #{$desktop} {
+            flex-wrap: unset;
+        }
+    }
+    &__column:first-child {
+        margin-bottom: 16px;
+        padding: 0 16px;
+        width:100%;
+        @media #{$desktop} {
+            margin-right: 24px;
+            margin-bottom: 0;
+            padding: 0;
+        }
+    }
+    &__results--mobile {
+        @media #{$desktop} {
+            display: none;
+        }
+    }
+    &__results--desktop {
+        display: none;
+        @media #{$desktop} {
+            display: block;
+        }
+    }
+}
