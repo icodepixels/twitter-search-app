@@ -6,12 +6,13 @@ Coding Challenge
 Twitter Search & Filter Tool
 
 
-Steps to start the App:
+Steps to run the App:
 1. Install node_modules at the root of the server folder: npm install
 2. Start the server: node app.js
 3. Install node_modules at the root of the client folder: npm install
 4. Start the client: npm run start
 5. Navigate to http://localhost:3000
+6. Test the client by running npm run test at the root of the client folder.
 
 
 Acceptance Criteria
